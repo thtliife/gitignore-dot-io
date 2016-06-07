@@ -7,7 +7,6 @@ the [gitignore.io](http://www.gitignore.io) api.
 [![GitHub issues](https://img.shields.io/github/issues/thtliife/gitignore-dot-io.svg)](https://github.com/thtliife/gitignore-dot-io/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/thtliife/gitignore-dot-io/master/LICENSE)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/thtliife/gitignore-dot-io.svg?style=social)](https://twitter.com/intent/tweet?text=Check out @thtliife%27s gitignore-dot-io module, for easy gitignore file generation!:&url=https%3A%2F%2Fgithub.com%2Fthtliife%2Fgitignore-dot-io)
 
 ## Installation
 
