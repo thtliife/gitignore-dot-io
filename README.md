@@ -47,6 +47,7 @@ Generates a gitignore file tailored for c development on mac osx
 ```bash
 gitignore-dot-io
 ```
+
 Displays a list of available filters to choose from, before generating a file
 tailored to the selected filters
 
