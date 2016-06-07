@@ -1,6 +1,6 @@
 {
   "name": "gitignore-dot-io",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate git ignore files from gitignore.io",
   "main": "gitignore-dot-io.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/thtliife/gitignore-dot-io/issues"
   },
   "homepage": "https://github.com/thtliife/gitignore-dot-io#readme",
-  "bin": {"gitignore-dot-io": "./gitignore-dot-io.js"},
+  "bin": {"gitignore-dot-io": "gitignore-dot-io.js"},
   "dependencies": {
     "@maboiteaspam/show-help": "3.0.0",
     "colors": "1.1.2",
