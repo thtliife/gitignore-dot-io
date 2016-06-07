@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use babel'
 const ignore = require('./app/ignore')
 const pkg = require('./package.json')
