@@ -1,0 +1,35 @@
+{
+  "name": "gitignore-dot-io",
+  "version": "0.0.0",
+  "description": "Generate git ignore files from gitignore.io",
+  "main": "gitignore-dot-io.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thtliife/gitignore-dot-io.git"
+  },
+  "keywords": [
+    "gitignore",
+    "ignore",
+    "git"
+  ],
+  "author": "Vito Giarrusso <vito.giarrusso@me.com> (https://github.com/thtliife)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thtliife/gitignore-dot-io/issues"
+  },
+  "homepage": "https://github.com/thtliife/gitignore-dot-io#readme",
+  "bin": {"gitignore-dot-io": "./gitignore-dot-io.js"},
+  "dependencies": {
+    "@maboiteaspam/show-help": "3.0.0",
+    "colors": "1.1.2",
+    "inquirer": "1.0.3",
+    "request": "2.72.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.5.3"
+  }
+}
