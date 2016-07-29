@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 0.1.3 - *2016-07-29*
+
+*   Something weird with previous publish
+
 ### 0.1.2 - *2016-07-29*
 
 *   Updated dependencies
