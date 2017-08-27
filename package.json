@@ -1,6 +1,6 @@
 {
   "name": "gitignore-dot-io",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Generate git ignore files from gitignore.io",
   "main": "gitignore-dot-io.js",
   "scripts": {
@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/thtliife/gitignore-dot-io.git"
   },
-  "keywords": [
-    "gitignore",
-    "ignore",
-    "git"
-  ],
+  "keywords": ["gitignore", "ignore", "git"],
   "author": "Vito Giarrusso <vito.giarrusso@me.com> (https://github.com/thtliife)",
   "license": "MIT",
   "bugs": {
