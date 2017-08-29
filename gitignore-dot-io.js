@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-'use babel'
-const ignore = require('./app/ignore')
-const pkg = require('./package.json')
-const help = require('@maboiteaspam/show-help')
-let argv = process.argv
-let argvCount = argv.length
-let args = []
+'use babel';
+const ignore = require('./app/ignore');
+const pkg = require('./package.json');
+const help = require('@maboiteaspam/show-help');
+let argv = process.argv;
+let argvCount = argv.length;
+let args = [];
 
-function usage () {
+function usage() {
   /*
 
   gitignore-dot-io
@@ -39,26 +39,26 @@ function usage () {
 }
 
 for (let i = 2; i < argvCount; i++) {
-  if ((argv[i].toLowerCase() === '-h') || argv[i].toLowerCase() === '--help') {
-    help.print(usage, pkg) &&     // show help,
-    help.die()                    // and exit.
+  if (argv[i].toLowerCase() === '-h' || argv[i].toLowerCase() === '--help') {
+    help.print(usage, pkg) && process.exit(0); // show help, // and exit.
   }
-  args.push(argv[i])
+  args.push(argv[i]);
 }
 
-ignore.getFilters()
-.then((filters) => {
-  return ignore.validateFilters(args, filters)
-})
-.then((validFilters) => {
-  return ignore.getIgnoreFile(validFilters)
-})
-.then((fileContent) => {
-  return ignore.saveIgnoreFile(fileContent)
-})
-.then((result) => {
-  console.info(result)
-})
-.catch((err) => {
-  console.error(err)
-})
+ignore
+  .getFilters()
+  .then(filters => {
+    return ignore.validateFilters(args, filters);
+  })
+  .then(validFilters => {
+    return ignore.getIgnoreFile(validFilters);
+  })
+  .then(fileContent => {
+    return ignore.saveIgnoreFile(fileContent);
+  })
+  .then(result => {
+    console.info(result);
+  })
+  .catch(err => {
+    console.error(err);
+  });
