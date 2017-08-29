@@ -1,6 +1,6 @@
 {
   "name": "gitignore-dot-io",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generate git ignore files from gitignore.io",
   "main": "gitignore-dot-io.js",
   "scripts": {
